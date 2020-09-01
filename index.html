@@ -1,85 +1,168 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Repo 1 Nuevas Tecnologías</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta name="description" content="Smart Agency is a one page responsive Bootstrap 4 template. This is a free open source theme, you can use our theme for any purpose, even commercially. Create amazing websites with this easy to customize template.">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
+
+    <!-- Ionic icons-->
+    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images//cafe.png" />
+
+    <title>El aroma del descanso</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Repo 1</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
-            aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <img src="assets/images/logo-dark.svg" class="logo-brand" alt="logo">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="assets/images/menu.svg">
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarColor02">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Productos</a>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                        aria-haspopup="true" aria-expanded="false">Servicios</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Ventas</a>
-                        <a class="dropdown-item" href="#">Catálogo</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Otros</a>
-                    </div>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Términos de búsqueda">
-                <button class="btn btn-primary my-2 my-sm-0" type="submit">Buscar</button>
-            </form>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#LugaresTuristicos">Lugares Turisticos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Comida">Comida</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Animales">Centro Deportivo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
-    <div class="jumbotron">
+
+    <section id="hero">
+        <duv class="container">
+            <div class="content-center">
+                <h1 class="mt-5">Centro Vacacional El Aroma Del Descanso</h1>
+                <a href="#" class="btn btn-secondary mt-4">Exploralo ahora <img src="assets/images/arrow-right.svg" class="ml-2"></a>
+            </div>
+        </duv>
+    </section>
+
+    <section id="portfolio">
+        <div class="container-fluid">
+            <div class="content-center">
+                <h2>Trabajamos para que tengas la <b>mejor experiencia.</b></h2>
+                <p>En nuestro centro vacacional encontraras lugares turisticos muy cerca de nuestro centro vacacional, tambien nuestra variedad de platos tipicos del eje cafetero y un gran centro deportivo para disfrutar en conjunto con tu familia</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="portfolio-container">
+                        <div class="portfolio-details">
+                            <a href="#">
+                                <h2>Reserva tu visita</h2>
+                            </a>
+                            <a href="#">
+                                <p>El eje cafetero te espera!</p>
+                            </a>
+                        </div>
+                        <img src="assets/images/portfolio-01.jpg" class="img-fluid" alt="Portfolio 01">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="portfolio-container">
+                        <div class="portfolio-details">
+                            <a href="#">
+                                <h2>Lugares Turisticos</h2>
+                            </a>
+                            <a href="#">
+                                <p>Disfruta de lugares turisticos</p>
+                            </a>
+                        </div>
+                        <img src="assets/images/portfolio-02.jpg" class="img-fluid" alt="Portfolio 02">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="portfolio-container">
+                        <div class="portfolio-details">
+                            <a href="#">
+                                <h2>Comida</h2>
+                            </a>
+                            <a href="#">
+                                <p>Disfruta de nuestra variedad de platos tipicos</p>
+                            </a>
+                        </div>
+                        <img src="assets/images/portfolio-03.jpg" class="img-fluid" alt="Portfolio 03">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="portfolio-container">
+                        <div class="portfolio-details">
+                            <a href="#">
+                                <h2>Centro de deporte</h2>
+                            </a>
+                            <a href="#">
+                                <p>Disfruta de nuestros areas para practicar deporte al aire libre</p>
+                            </a>
+                        </div>
+                        <img src="assets/images/portfolio-04.jpg" class="img-fluid" alt="Portfolio 04">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bgDark">
         <div class="container">
-            <h1 class="display-3">Bienvenidos</h1>
-            <p>En este sitio podrás encontrar todo nuestro catálogo de productos y servicios.</p>
+            <ul class="list-inline">
+                <li class="list-inline-item footer-menu"><a href="#">Home</a></li>
+                <li class="list-inline-item footer-menu"><a href="#">Lugares Turisticos</a></li>
+                <li class="list-inline-item footer-menu"><a href="#">Comida</a></li>
+                <li class="list-inline-item footer-menu"><a href="#">Centro Deportivo</a></li>
+                <li class="list-inline-item footer-menu"><a href="#">Contacto</a></li>
+            </ul>
+            <ul class="list-inline">
+                <li class="list-inline-item">
+                    <a href="#"><img src="assets/images/instagram.svg" class="img-fluid"></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#"><img src="assets/images/twitter.svg" class="img-fluid"></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#"><img src="assets/images/youtube.svg" class="img-fluid"></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#"><img src="assets/images/dribbble.svg" class="img-fluid"></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#"><img src="assets/images/facebook.svg" class="img-fluid"></a>
+                </li>
+            </ul>
+
         </div>
-    </div>
-    <div class="container">
-        <!-- Example row of columns -->
-        <div class="row">
-            <div class="col-md-4">
-                <h2>Productos</h2>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada leo ac enim varius,
-                    lobortis sagittis massa tempor. Donec a arcu ut ex euismod aliquet et sed tellus. Praesent tincidunt
-                    ipsum at sem egestas, et rutrum velit volutpat. Quisque id pellentesque lectus. Sed eleifend ante
-                    sed interdum sagittis. Etiam egestas arcu non tincidunt sodales. </p>
-                <p><a class="btn btn-primary" href="#" role="button">Ver detalles &raquo;</a></p>
-            </div>
-            <div class="col-md-4">
-                <h2>Servicios</h2>
-                <p>Ut ac tortor metus. Ut lobortis erat dui, et pulvinar nunc bibendum non. Praesent tincidunt lorem
-                    massa, at pulvinar justo egestas ut. Cras id dui nulla. Pellentesque habitant morbi tristique
-                    senectus et netus et malesuada fames ac turpis egestas. Duis sed enim purus. Ut consectetur rutrum
-                    sem, eget rutrum justo tempus vitae. Integer posuere vel nisi in semper.. </p>
-                <p><a class="btn btn-primary" href="#" role="button">Ver detalles&raquo;</a></p>
-            </div>
-            <div class="col-md-4">
-                <h2>Nuestros clientes</h2>
-                <p>Duis dictum mauris sed ex consectetur, ut viverra erat ultricies. Etiam in diam tellus. Proin id
-                    sodales lacus. Nunc tincidunt congue urna, at sagittis tellus interdum eu. Fusce sit amet faucibus
-                    mauris. Vivamus erat ex, semper nec lectus sit amet, accumsan ultrices nulla. Integer suscipit nibh
-                    ex, vitae cursus elit euismod vulputate. Quisque ut consectetur metus. .</p>
-                <p><a class="btn btn-primary" href="#" role="button">Ver detalles &raquo;</a></p>
-            </div>
-        </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
 </body>
 
 </html>
